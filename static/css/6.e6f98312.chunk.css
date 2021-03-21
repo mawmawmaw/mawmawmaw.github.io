@@ -1,0 +1,2 @@
+.dialog-box-wrap{max-height:200px;overflow-y:auto}.dialog-box-text{padding:0;margin:0;text-align:left}.dialog-box-pointer{background-color:#000;display:inline;padding:0 1px}.animate-pointer{animation:blink .5s linear 0s infinite;opacity:1}@keyframes blink{0%,to{opacity:1}50%{opacity:0}}.hide-pointer{padding:0}@media screen and (max-width:640px){.dialog-box-wrap{max-height:100%}}div#avatar-container img{width:140px}@media screen and (max-width:640px){div#avatar-container img{width:90%}}
+/*# sourceMappingURL=6.e6f98312.chunk.css.map */
