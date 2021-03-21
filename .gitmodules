@@ -1,0 +1,3 @@
+[submodule "space-snake"]
+	path = space-snake
+	url = https://github.com/mawmawmaw/space-snake
