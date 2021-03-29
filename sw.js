@@ -2,7 +2,7 @@ var APP_PREFIX = 'MAWMAWMAW'
 var VERSION = '_v_0_1b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
-  '/',
+  'favicon.png',
   '/images/logo192.jpg',
   '/images/logo512.jpg',
   '/images/fbtw.jpg',
@@ -19,8 +19,8 @@ var URLS = [
   '/static/css/11.48e940c9.chunk.css.map',
   '/static/css/4.2710a51e.chunk.css',
   '/static/css/4.2710a51e.chunk.css.map',
-  '/static/css/6.330305a6.chunk.css',
-  '/static/css/6.330305a6.chunk.css.map',
+  '/static/css/6.885f8535.chunk.css',
+  '/static/css/6.885f8535.chunk.css.map',
   '/static/css/7.f0ead6c2.chunk.css',
   '/static/css/7.f0ead6c2.chunk.css.map',
   '/static/css/8.b184a1d1.chunk.css',
@@ -53,8 +53,8 @@ var URLS = [
   '/static/js/9.44da3dc3.chunk.js.map',
   '/static/js/main.5df059cf.chunk.js',
   '/static/js/main.5df059cf.chunk.js.map',
-  '/static/js/runtime-main.6c792677.js',
-  '/static/js/runtime-main.6c792677.js.map',
+  '/static/js/runtime-main.50db856a.js',
+  '/static/js/runtime-main.50db856a.js.map',
   '/static/media/aws.abc17026.png',
   '/static/media/bg_grass.bc75dcf9.png',
   '/static/media/bg_grass_dark.4bcc2369.png',
@@ -97,9 +97,7 @@ self.addEventListener('fetch', function (e) {
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-      setTimeout(()=>{
         return cache.addAll(URLS)
-      },500)
     })
   )
 })
