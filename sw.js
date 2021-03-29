@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAWMAWMAW'
-var VERSION = '_v_01'
+var VERSION = '_v_0.1.b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   '/',
