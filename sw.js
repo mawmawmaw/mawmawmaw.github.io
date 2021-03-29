@@ -97,8 +97,10 @@ self.addEventListener('fetch', function (e) {
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-      console.log(cache);
-      return cache.addAll(URLS)
+      setTimeout(()=>{
+        console.log(caches,cache);
+        return cache.addAll(URLS)
+      },1000)
     })
   )
 })
