@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/Content/AboutMe/AboutMe.css"],"names":[],"mappings":"AAAA,gCACI,gBAAiB,CACjB,UAAW,CACX,kBACJ","file":"7.f0ead6c2.chunk.css","sourcesContent":["#about-me button.ui.button.blue {\r\n    font-family: 'VG';\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n}"]}
