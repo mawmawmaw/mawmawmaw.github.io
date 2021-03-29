@@ -2,7 +2,17 @@ var APP_PREFIX = 'MAWMAWMAW'
 var VERSION = '_v_0_1b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
-  '/images/logo192.jpg'
+  'favicon.png',
+  '/images/logo192.jpg',
+  '/images/logo512.jpg',
+  '/images/fbtw.jpg',
+  '/images/radio.png',
+  '/sounds/music.mp3',
+  '/sounds/click.mp3',
+  '/sounds/sent.mp3',
+  '/sounds/typing.mp3',
+  '/sounds/poke.mp3',
+  '/sounds/lose.mp3'
 ]
 
 self.addEventListener('fetch', function (e) {
