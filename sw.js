@@ -3,8 +3,8 @@ var VERSION = '_v_0_1b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   '/index.html',
-  '/images/logo192.png',
-  '/images/logo512.png',
+  '/images/logo192.jpg',
+  '/images/logo512.jpg',
   '/images/fbtw.jpg',
   '/images/radio.png',
   '/sounds/music.mp3',
@@ -97,9 +97,7 @@ self.addEventListener('fetch', function (e) {
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-      setTimeout(()=>{
         return cache.addAll(URLS)
-      },500)
     })
   )
 })
