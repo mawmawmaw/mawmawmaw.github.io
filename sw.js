@@ -51,8 +51,8 @@ var URLS = [
   '/static/js/8.75033af7.chunk.js.map',
   '/static/js/9.44da3dc3.chunk.js',
   '/static/js/9.44da3dc3.chunk.js.map',
-  '/static/js/main.493ec302.chunk.js',
-  '/static/js/main.493ec302.chunk.js.map',
+  '/static/js/main.1f05873a.chunk.js',
+  '/static/js/main.1f05873a.chunk.js.map',
   '/static/js/runtime-main.8a9288b1.js',
   '/static/js/runtime-main.8a9288b1.js.map',
   '/static/media/aws.abc17026.png',
@@ -98,9 +98,8 @@ self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       setTimeout(()=>{
-        console.log(caches,cache);
         return cache.addAll(URLS)
-      },1000)
+      },500)
     })
   )
 })
