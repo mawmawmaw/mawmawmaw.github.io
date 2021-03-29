@@ -1,8 +1,8 @@
 var APP_PREFIX = 'MAWMAWMAW'
-var VERSION = '_v_0.1.b'
+var VERSION = '_v_0_1b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
-  '/',
+  '/index.html',
   '/images/logo192.png',
   '/images/logo512.png',
   '/images/fbtw.jpg',
@@ -27,8 +27,8 @@ var URLS = [
   '/static/css/8.b184a1d1.chunk.css.map',
   '/static/css/9.661387e8.chunk.css',
   '/static/css/9.661387e8.chunk.css.map',
-  '/static/css/main.34005ea4.chunk.css',
-  '/static/css/main.34005ea4.chunk.css.map',
+  '/static/css/main.8bbb8de8.chunk.css',
+  '/static/css/main.8bbb8de8.chunk.css.map',
   '/static/js/10.5f37d016.chunk.js',
   '/static/js/10.5f37d016.chunk.js.map',
   '/static/js/11.c9a6361d.chunk.js',
@@ -97,6 +97,7 @@ self.addEventListener('fetch', function (e) {
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
+      console.log(cache);
       return cache.addAll(URLS)
     })
   )
