@@ -3,8 +3,8 @@
     "main.css": "/static/css/main.f6861b11.chunk.css",
     "main.js": "/static/js/main.269efdb8.chunk.js",
     "main.js.map": "/static/js/main.269efdb8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.81cc7c1c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.81cc7c1c.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d62100c2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d62100c2.js.map",
     "static/js/2.36821349.chunk.js": "/static/js/2.36821349.chunk.js",
     "static/js/2.36821349.chunk.js.map": "/static/js/2.36821349.chunk.js.map",
     "static/js/3.de206701.chunk.js": "/static/js/3.de206701.chunk.js",
@@ -15,8 +15,8 @@
     "static/js/5.a2989d38.chunk.js": "/static/js/5.a2989d38.chunk.js",
     "static/js/5.a2989d38.chunk.js.map": "/static/js/5.a2989d38.chunk.js.map",
     "static/css/6.d92ace95.chunk.css": "/static/css/6.d92ace95.chunk.css",
-    "static/js/6.04a65964.chunk.js": "/static/js/6.04a65964.chunk.js",
-    "static/js/6.04a65964.chunk.js.map": "/static/js/6.04a65964.chunk.js.map",
+    "static/js/6.c7a14086.chunk.js": "/static/js/6.c7a14086.chunk.js",
+    "static/js/6.c7a14086.chunk.js.map": "/static/js/6.c7a14086.chunk.js.map",
     "static/css/7.f0ead6c2.chunk.css": "/static/css/7.f0ead6c2.chunk.css",
     "static/js/7.b6549dc3.chunk.js": "/static/js/7.b6549dc3.chunk.js",
     "static/js/7.b6549dc3.chunk.js.map": "/static/js/7.b6549dc3.chunk.js.map",
@@ -69,7 +69,7 @@
     "static/media/wordpress.b687aff4.png": "/static/media/wordpress.b687aff4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.81cc7c1c.js",
+    "static/js/runtime-main.d62100c2.js",
     "static/js/3.de206701.chunk.js",
     "static/css/main.f6861b11.chunk.css",
     "static/js/main.269efdb8.chunk.js"
