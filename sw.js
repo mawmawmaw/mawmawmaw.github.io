@@ -109,15 +109,10 @@ self.addEventListener('activate', function (e) {
 
 this.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.match(event.request).then(function(resp) {
-      return resp || fetch(event.request).then(function(response) {
-        caches.open(CACHE_NAME).then(function(cache) {
-          cache.put(event.request, response.clone());
-        });
-        return response;
-      });
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
     }).catch(function() {
-      return
+      return;
     })
   );
 });
