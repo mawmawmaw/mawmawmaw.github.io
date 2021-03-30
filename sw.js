@@ -27,8 +27,8 @@ var URLS = [
   '/static/css/8.b184a1d1.chunk.css.map',
   '/static/css/9.661387e8.chunk.css',
   '/static/css/9.661387e8.chunk.css.map',
-  '/static/css/main.4d2cb350.chunk.css',
-  '/static/css/main.4d2cb350.chunk.css.map',
+  '/static/css/main.76fee9c5.chunk.css',
+  '/static/css/main.76fee9c5.chunk.css.map',
   '/static/js/10.5f37d016.chunk.js',
   '/static/js/10.5f37d016.chunk.js.map',
   '/static/js/11.c9a6361d.chunk.js',
@@ -86,6 +86,8 @@ self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
         return cache.addAll(URLS)
+    }).catch(function() {
+      return;
     })
   )
 })
