@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAWMAWMAW'
-var VERSION = '_v_0_1b'
+var VERSION = '_v_0.1b'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
@@ -82,18 +82,6 @@ var URLS = [
   '/static/media/wordpress.b687aff4.png'
 ]
 
-self.addEventListener('fetch', function (e) {
-  e.respondWith(
-    caches.match(e.request).then(function (request) {
-      if (request) {
-        return request
-      } else {
-        return fetch(e.request)
-      }
-    })
-  )
-})
-
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
@@ -118,3 +106,18 @@ self.addEventListener('activate', function (e) {
     })
   )
 })
+
+this.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(resp) {
+      return resp || fetch(event.request).then(function(response) {
+        caches.open(CACHE_NAME).then(function(cache) {
+          cache.put(event.request, response.clone());
+        });
+        return response;
+      });
+    }).catch(function() {
+      return
+    })
+  );
+});
