@@ -1,3 +1,6 @@
 [submodule "space-snake"]
 	path = space-snake
 	url = https://github.com/mawmawmaw/space-snake
+[submodule "links"]
+	path = links
+	url = https://github.com/mawmawmaw/links
