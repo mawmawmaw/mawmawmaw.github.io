@@ -4,3 +4,6 @@
 [submodule "links"]
 	path = links
 	url = https://github.com/mawmawmaw/links
+[submodule "brutal-ui"]
+	path = brutal-ui
+	url = https://github.com/mawmawmaw/brutal-ui
