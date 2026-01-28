@@ -1,12 +1,15 @@
-var APP_PREFIX = 'MAWMAWMAW'
-var VERSION = '_v_0.2'
+var APP_PREFIX = 'MAW.dev'
+var VERSION = '_v_' + 1769639581731
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
   '/images/logo192.webp',
   '/images/logo512.webp',
+  '/images/logo1024.webp',
   '/images/fbtw.webp',
   '/images/radio.webp',
+  '/images/screenshot-wide.webp',
+  '/images/screenshot-narrow.webp',
   '/sounds/music.mp3',
   '/sounds/click.mp3',
   '/sounds/sent.mp3',
@@ -18,38 +21,48 @@ var URLS = [
   '/static/css/302.8d14f2ba.chunk.css',
   '/static/css/302.8d14f2ba.chunk.css.map',
   '/static/css/408.31d6cfe0.chunk.css',
-  '/static/css/584.11c33d80.chunk.css',
-  '/static/css/584.11c33d80.chunk.css.map',
-  '/static/css/589.5fe102ff.chunk.css',
-  '/static/css/589.5fe102ff.chunk.css.map',
-  '/static/css/795.001e99f6.chunk.css',
-  '/static/css/795.001e99f6.chunk.css.map',
-  '/static/css/987.25422c2f.chunk.css',
-  '/static/css/987.25422c2f.chunk.css.map',
-  '/static/css/main.6db2b57b.css',
-  '/static/css/main.6db2b57b.css.map',
+  '/static/css/589.a4596172.chunk.css',
+  '/static/css/589.a4596172.chunk.css.map',
+  '/static/css/795.b2ab3fcc.chunk.css',
+  '/static/css/795.b2ab3fcc.chunk.css.map',
+  '/static/css/88.265fd050.chunk.css',
+  '/static/css/88.265fd050.chunk.css.map',
+  '/static/css/987.c09557c2.chunk.css',
+  '/static/css/987.c09557c2.chunk.css.map',
+  '/static/css/main.995edb5a.css',
+  '/static/css/main.995edb5a.css.map',
   '/static/js/223.473971a2.chunk.js',
   '/static/js/223.473971a2.chunk.js.map',
-  '/static/js/302.44b18770.chunk.js',
-  '/static/js/302.44b18770.chunk.js.map',
+  '/static/js/289.2a68ced0.chunk.js',
+  '/static/js/289.2a68ced0.chunk.js.LICENSE.txt',
+  '/static/js/289.2a68ced0.chunk.js.map',
+  '/static/js/302.eeaca769.chunk.js',
+  '/static/js/302.eeaca769.chunk.js.map',
+  '/static/js/404.26d713b0.chunk.js',
+  '/static/js/404.26d713b0.chunk.js.map',
   '/static/js/408.c2dde53a.chunk.js',
   '/static/js/408.c2dde53a.chunk.js.map',
+  '/static/js/416.380383ce.chunk.js',
+  '/static/js/416.380383ce.chunk.js.LICENSE.txt',
+  '/static/js/416.380383ce.chunk.js.map',
   '/static/js/488.5f29b785.chunk.js',
   '/static/js/488.5f29b785.chunk.js.map',
-  '/static/js/584.bd60c2d4.chunk.js',
-  '/static/js/584.bd60c2d4.chunk.js.map',
-  '/static/js/589.7071d603.chunk.js',
-  '/static/js/589.7071d603.chunk.js.map',
-  '/static/js/795.69853ada.chunk.js',
-  '/static/js/795.69853ada.chunk.js.map',
+  '/static/js/589.4064391d.chunk.js',
+  '/static/js/589.4064391d.chunk.js.map',
+  '/static/js/795.bdb3238f.chunk.js',
+  '/static/js/795.bdb3238f.chunk.js.map',
   '/static/js/810.3fa8ac31.chunk.js',
   '/static/js/810.3fa8ac31.chunk.js.LICENSE.txt',
   '/static/js/810.3fa8ac31.chunk.js.map',
-  '/static/js/987.27fbfab2.chunk.js',
-  '/static/js/987.27fbfab2.chunk.js.map',
-  '/static/js/main.2e10b921.js',
-  '/static/js/main.2e10b921.js.LICENSE.txt',
-  '/static/js/main.2e10b921.js.map',
+  '/static/js/849.63dc0dfd.chunk.js',
+  '/static/js/849.63dc0dfd.chunk.js.map',
+  '/static/js/88.d67c0d8d.chunk.js',
+  '/static/js/88.d67c0d8d.chunk.js.map',
+  '/static/js/987.3b24db69.chunk.js',
+  '/static/js/987.3b24db69.chunk.js.map',
+  '/static/js/main.55055904.js',
+  '/static/js/main.55055904.js.LICENSE.txt',
+  '/static/js/main.55055904.js.map',
   '/static/media/aws.0db2175b638c3193b1fc.webp',
   '/static/media/bg_grass_dark.fe0860d81fefcb61f67e.webp',
   '/static/media/bg_grass_light.017013e6a2b6014f6d9d.webp',
@@ -63,10 +76,6 @@ var URLS = [
   '/static/media/bg_sky_light.900e8d3fc7dfa792320a.webp',
   '/static/media/bg_water_dark.d04186cd402d0b0f22b6.webp',
   '/static/media/bg_water_light.1b1de3b5868a5bb91f75.webp',
-  '/static/media/border.74df8f98218a3d9f80d1f2854bb22cf6.svg',
-  '/static/media/border_blue.83984a484f5413c72fc2a1d27265feb9.svg',
-  '/static/media/border_dark.7e52f86205f268d455c603e6be129b34.svg',
-  '/static/media/border_red.11edf34b3a1966debdb26b3b9b9cb64c.svg',
   '/static/media/console.e06ad12dcdaac295d120.webp',
   '/static/media/controller.fd7a3670dd200185c351.webp',
   '/static/media/css3.8e4a4830c10f55a8832a.webp',
@@ -103,9 +112,10 @@ var URLS = [
 ]
 
 self.addEventListener('install', function (e) {
+  self.skipWaiting()
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-        return cache.addAll(URLS)
+      return cache.addAll(URLS)
     }).catch(function() {
       return;
     })
@@ -114,27 +124,48 @@ self.addEventListener('install', function (e) {
 
 self.addEventListener('activate', function (e) {
   e.waitUntil(
-    caches.keys().then(function (keyList) {
-      var cacheWhitelist = keyList.filter(function (key) {
-        return key.indexOf(APP_PREFIX)
+    Promise.all([
+      clients.claim(),
+      caches.keys().then(function (keyList) {
+        return Promise.all(keyList.map(function (key) {
+          if (key.indexOf(APP_PREFIX) === 0 && key !== CACHE_NAME) {
+            return caches.delete(key)
+          }
+        }))
       })
-      cacheWhitelist.push(CACHE_NAME)
-
-      return Promise.all(keyList.map(function (key, i) {
-        if (cacheWhitelist.indexOf(key) === -1) {
-          return caches.delete(keyList[i])
-        }
-      }))
-    })
+    ])
   )
 })
 
-this.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', function(event) {
+  var request = event.request
+
+  // Network-first for navigation requests (ensures fresh HTML)
+  if (request.mode === 'navigate') {
+    event.respondWith(
+      fetch(request).then(function(response) {
+        return caches.open(CACHE_NAME).then(function(cache) {
+          cache.put(request, response.clone())
+          return response
+        })
+      }).catch(function() {
+        return caches.match(request)
+      })
+    )
+    return
+  }
+
+  // Cache-first for static assets
   event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
+    caches.match(request).then(function(response) {
+      return response || fetch(request).then(function(fetchResponse) {
+        return caches.open(CACHE_NAME).then(function(cache) {
+          cache.put(request, fetchResponse.clone())
+          return fetchResponse
+        })
+      })
     }).catch(function() {
-      return;
+      return
     })
-  );
-});
+  )
+})
