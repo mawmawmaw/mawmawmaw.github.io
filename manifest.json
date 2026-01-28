@@ -1,6 +1,6 @@
 {
-  "short_name": "MAWMAWMAW",
-  "name": "MAWMAWMAW - Website",
+  "short_name": "maw.dev",
+  "name": "0xMaw - Website",
   "icons": [
     {
       "src": "favicon.png",
@@ -8,13 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "images/logo192.jpg",
+      "src": "images/logo128.webp",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/logo192.webp",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "images/logo512.jpg",
+      "src": "images/logo512.webp",
       "type": "image/png",
       "sizes": "512x512"
     }
