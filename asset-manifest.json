@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.57a84bce.css",
-    "main.js": "/static/js/main.ab17088a.js",
-    "static/css/152.d5e5ec17.chunk.css": "/static/css/152.d5e5ec17.chunk.css",
-    "static/js/152.8b8c6f15.chunk.js": "/static/js/152.8b8c6f15.chunk.js",
+    "main.css": "/static/css/main.f3018ff0.css",
+    "main.js": "/static/js/main.a7bbedc5.js",
+    "static/css/152.3d4060b3.chunk.css": "/static/css/152.3d4060b3.chunk.css",
+    "static/js/152.95a06f4f.chunk.js": "/static/js/152.95a06f4f.chunk.js",
     "static/js/488.5f29b785.chunk.js": "/static/js/488.5f29b785.chunk.js",
     "static/css/98.0f64d09a.chunk.css": "/static/css/98.0f64d09a.chunk.css",
     "static/js/98.1aadb51c.chunk.js": "/static/js/98.1aadb51c.chunk.js",
@@ -23,14 +23,15 @@
     "static/js/416.380383ce.chunk.js": "/static/js/416.380383ce.chunk.js",
     "static/js/810.3fa8ac31.chunk.js": "/static/js/810.3fa8ac31.chunk.js",
     "static/media/bg_grass_light.webp": "/static/media/bg_grass_light.017013e6a2b6014f6d9d.webp",
+    "static/media/bg_sky_dark.webp": "/static/media/bg_sky_dark.c4fb402e263ce8dc7e81.webp",
     "static/media/bg_grass_dark.webp": "/static/media/bg_grass_dark.fe0860d81fefcb61f67e.webp",
     "static/media/bg_sky_light.webp": "/static/media/bg_sky_light.900e8d3fc7dfa792320a.webp",
+    "static/media/bg_mobile_sky_light.webp": "/static/media/bg_mobile_sky_light.17c61bbf3ae781ae7602.webp",
+    "static/media/bg_mobile_sky_dark.webp": "/static/media/bg_mobile_sky_dark.de7c104abfd3a7cc99a6.webp",
     "static/media/bg_mobile_grass_light.webp": "/static/media/bg_mobile_grass_light.a8181f317ee3e292b05f.webp",
     "static/media/maw_waving.gif": "/static/media/maw_waving.c1f9aef73ce81b23a6b9.gif",
     "static/media/maw_poked.gif": "/static/media/maw_poked.91d8a70a018a688e6108.gif",
-    "static/media/bg_mobile_sky_light.webp": "/static/media/bg_mobile_sky_light.9c4b8dd63187706cedd7.webp",
     "static/media/bg_water_light.webp": "/static/media/bg_water_light.1b1de3b5868a5bb91f75.webp",
-    "static/media/bg_sky_dark.webp": "/static/media/bg_sky_dark.24c2673a4517c3cbdad4.webp",
     "static/media/bg_water_dark.webp": "/static/media/bg_water_dark.d04186cd402d0b0f22b6.webp",
     "static/media/bg_mobile_grass_dark.webp": "/static/media/bg_mobile_grass_dark.a6aa278a30901b080070.webp",
     "static/media/maw_standing.gif": "/static/media/maw_standing.b737e7ebc25c1e386866.gif",
@@ -40,7 +41,6 @@
     "static/media/bg_mobile_water_light.webp": "/static/media/bg_mobile_water_light.463771ebf4c44870726f.webp",
     "static/media/wordpress.webp": "/static/media/wordpress.ef142268666f11459304.webp",
     "static/media/bg_mobile_water_dark.webp": "/static/media/bg_mobile_water_dark.72cbe5fdb768ca12ffad.webp",
-    "static/media/bg_mobile_sky_dark.webp": "/static/media/bg_mobile_sky_dark.323e8298e7cfd19b98c4.webp",
     "static/media/aws.webp": "/static/media/aws.0db2175b638c3193b1fc.webp",
     "static/media/moralis.webp": "/static/media/moralis.0e3398a6b92ae5c170c8.webp",
     "static/media/redux.webp": "/static/media/redux.75ffb5f8b06732d52cf5.webp",
@@ -69,10 +69,10 @@
     "static/media/headericonsright.webp": "/static/media/headericonsright.bd9295dc3c1f9ddcae83.webp",
     "static/media/headericonsleft.webp": "/static/media/headericonsleft.f07a6d10985df2400773.webp",
     "static/media/headerbg.webp": "/static/media/headerbg.9ff9f2354409587ceea7.webp",
-    "main.57a84bce.css.map": "/static/css/main.57a84bce.css.map",
-    "main.ab17088a.js.map": "/static/js/main.ab17088a.js.map",
-    "152.d5e5ec17.chunk.css.map": "/static/css/152.d5e5ec17.chunk.css.map",
-    "152.8b8c6f15.chunk.js.map": "/static/js/152.8b8c6f15.chunk.js.map",
+    "main.f3018ff0.css.map": "/static/css/main.f3018ff0.css.map",
+    "main.a7bbedc5.js.map": "/static/js/main.a7bbedc5.js.map",
+    "152.3d4060b3.chunk.css.map": "/static/css/152.3d4060b3.chunk.css.map",
+    "152.95a06f4f.chunk.js.map": "/static/js/152.95a06f4f.chunk.js.map",
     "488.5f29b785.chunk.js.map": "/static/js/488.5f29b785.chunk.js.map",
     "98.0f64d09a.chunk.css.map": "/static/css/98.0f64d09a.chunk.css.map",
     "98.1aadb51c.chunk.js.map": "/static/js/98.1aadb51c.chunk.js.map",
@@ -92,7 +92,7 @@
     "810.3fa8ac31.chunk.js.map": "/static/js/810.3fa8ac31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57a84bce.css",
-    "static/js/main.ab17088a.js"
+    "static/css/main.f3018ff0.css",
+    "static/js/main.a7bbedc5.js"
   ]
 }
