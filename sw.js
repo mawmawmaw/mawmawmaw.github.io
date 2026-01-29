@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAW.dev'
-var VERSION = '_v_' + 1769643976833
+var VERSION = '_v_' + 1769645412697
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
@@ -28,8 +28,8 @@ var URLS = [
   '/static/css/98.0f64d09a.chunk.css.map',
   '/static/css/987.c09557c2.chunk.css',
   '/static/css/987.c09557c2.chunk.css.map',
-  '/static/css/main.995edb5a.css',
-  '/static/css/main.995edb5a.css.map',
+  '/static/css/main.57a84bce.css',
+  '/static/css/main.57a84bce.css.map',
   '/static/js/152.8b8c6f15.chunk.js',
   '/static/js/152.8b8c6f15.chunk.js.map',
   '/static/js/289.2a68ced0.chunk.js',
@@ -59,9 +59,9 @@ var URLS = [
   '/static/js/98.1aadb51c.chunk.js.map',
   '/static/js/987.3b24db69.chunk.js',
   '/static/js/987.3b24db69.chunk.js.map',
-  '/static/js/main.23d53f68.js',
-  '/static/js/main.23d53f68.js.LICENSE.txt',
-  '/static/js/main.23d53f68.js.map',
+  '/static/js/main.ab17088a.js',
+  '/static/js/main.ab17088a.js.LICENSE.txt',
+  '/static/js/main.ab17088a.js.map',
   '/static/media/aws.0db2175b638c3193b1fc.webp',
   '/static/media/bg_grass_dark.fe0860d81fefcb61f67e.webp',
   '/static/media/bg_grass_light.017013e6a2b6014f6d9d.webp',
