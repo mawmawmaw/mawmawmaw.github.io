@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAW.dev'
-var VERSION = '_v_' + 1769652355553
+var VERSION = '_v_' + 1769653772941
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
