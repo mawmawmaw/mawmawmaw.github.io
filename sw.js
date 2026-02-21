@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAW.dev'
-var VERSION = '_v_' + 1771654850227
+var VERSION = '_v_' + 1771655591153
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
@@ -15,8 +15,8 @@ var URLS = [
   '/sounds/ui/typing.mp3',
   '/sounds/game/poke.mp3',
   '/sounds/game/lose.mp3',
-  '/static/css/197.3d4cab8b.chunk.css',
-  '/static/css/197.3d4cab8b.chunk.css.map',
+  '/static/css/197.c7c53b98.chunk.css',
+  '/static/css/197.c7c53b98.chunk.css.map',
   '/static/css/27.31d6cfe0.chunk.css',
   '/static/css/451.43c677e4.chunk.css',
   '/static/css/451.43c677e4.chunk.css.map',
@@ -30,8 +30,8 @@ var URLS = [
   '/static/css/987.e8da115e.chunk.css.map',
   '/static/css/main.d1dfc785.css',
   '/static/css/main.d1dfc785.css.map',
-  '/static/js/197.2482b479.chunk.js',
-  '/static/js/197.2482b479.chunk.js.map',
+  '/static/js/197.32c627f6.chunk.js',
+  '/static/js/197.32c627f6.chunk.js.map',
   '/static/js/224.15c1a4ae.chunk.js',
   '/static/js/224.15c1a4ae.chunk.js.map',
   '/static/js/27.0998cb2b.chunk.js',
@@ -69,9 +69,9 @@ var URLS = [
   '/static/js/987.445059bc.chunk.js.map',
   '/static/js/989.b10ee7f5.chunk.js',
   '/static/js/989.b10ee7f5.chunk.js.map',
-  '/static/js/main.5816b5b1.js',
-  '/static/js/main.5816b5b1.js.LICENSE.txt',
-  '/static/js/main.5816b5b1.js.map',
+  '/static/js/main.6b5ca8f0.js',
+  '/static/js/main.6b5ca8f0.js.LICENSE.txt',
+  '/static/js/main.6b5ca8f0.js.map',
   '/static/media/apache.de58a5885561d0c46854b7a8aa4e1ee1.svg',
   '/static/media/apollographql.62b065057c477094ce6c2d0c63c71e25.svg',
   '/static/media/aws.0db2175b638c3193b1fc.webp',
