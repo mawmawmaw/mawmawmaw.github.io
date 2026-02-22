@@ -8,7 +8,7 @@
       name="description"
       content="Mauricio Garcia de Ceca's website. Web Development Project Portafolio and Contact Information."
     />
-    <meta http-equiv="refresh" content="0;URL='https://mawmawmaw.github.io/'" />
+    <!-- <meta http-equiv="refresh" content="0;URL='https://mawmawmaw.github.io/'" /> -->
     <meta property="og:url" content="https://mawmawmaw.github.io/" />
     <meta property="og:site_name" content="MAW.dev | Web Development" />
     <meta property="og:title" content="MAW.dev | Web Development" />
@@ -67,6 +67,81 @@
       }
     </script>
   </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      padding: 20px;
+      background: #2a7b9b;
+      background: linear-gradient(
+        90deg,
+        rgba(42, 123, 155, 1) 0%,
+        rgba(206, 235, 113, 1) 50%,
+        rgba(255, 176, 38, 1) 100%
+      );
+    }
+    .container {
+      background-color: #00000044;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      border-radius: 40px;
+      border: 2px solid #000;
+      overflow: hidden;
+    }
+    .container img {
+      width: 360px;
+      margin-left: -30px;
+    }
+    .container .content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 40px;
+    }
+    .container .content h1 {
+      color: #000;
+      font-size: 72px;
+      margin-bottom: 0;
+    }
+    .container .content p {
+      color: #000;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    .container .content a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container .content a:hover {
+      text-decoration: underline;
+    }
+    @media screen and (max-width: 564px) {
+      .container img {
+        margin-left: 0px;
+      }
+      .container .content {
+        margin-top: 320px;
+        margin-left: -360px;
+      }
+      .container .content h1 {
+        font-size: 48px;
+      }
+      .container .content p {
+        font-size: 16px;
+      }
+    }
+  </style>
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript
@@ -82,6 +157,19 @@
       >Por favor, habilita Javascript en tu navegador para poder visualizar la
       p&aacute;gina.</noscript
     >
-    <div id="root">404</div>
+    <div id="root">
+      <div class="container-wrapper">
+        <div class="container">
+          <img src="ralph.webp" alt="404" />
+          <div class="content">
+            <h1>404</h1>
+            <p>
+              Oops! La p&aacute;gina que buscas no existe. Regresa a la
+              <a href="/">p&aacute;gina principal</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
