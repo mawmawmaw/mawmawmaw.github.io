@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAW.dev'
-var VERSION = '_v_' + 1776004791006
+var VERSION = '_v_' + 1776005774155
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
@@ -27,8 +27,8 @@ var URLS = [
   '/static/css/97.102ee0d8.chunk.css.map',
   '/static/css/987.c58b7266.chunk.css',
   '/static/css/987.c58b7266.chunk.css.map',
-  '/static/css/main.3413f1ac.css',
-  '/static/css/main.3413f1ac.css.map',
+  '/static/css/main.4fc2a6f8.css',
+  '/static/css/main.4fc2a6f8.css.map',
   '/static/js/224.15c1a4ae.chunk.js',
   '/static/js/224.15c1a4ae.chunk.js.map',
   '/static/js/289.c50de12c.chunk.js',
@@ -63,9 +63,9 @@ var URLS = [
   '/static/js/97.4c51d9c7.chunk.js.map',
   '/static/js/987.f409310d.chunk.js',
   '/static/js/987.f409310d.chunk.js.map',
-  '/static/js/main.ae51704e.js',
-  '/static/js/main.ae51704e.js.LICENSE.txt',
-  '/static/js/main.ae51704e.js.map',
+  '/static/js/main.cac6fa29.js',
+  '/static/js/main.cac6fa29.js.LICENSE.txt',
+  '/static/js/main.cac6fa29.js.map',
   '/static/media/apache.de58a5885561d0c46854b7a8aa4e1ee1.svg',
   '/static/media/apollographql.62b065057c477094ce6c2d0c63c71e25.svg',
   '/static/media/aws.0db2175b638c3193b1fc.webp',
