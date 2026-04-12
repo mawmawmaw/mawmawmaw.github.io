@@ -1,5 +1,5 @@
 var APP_PREFIX = 'MAW.dev'
-var VERSION = '_v_' + 1775959900643
+var VERSION = '_v_' + 1776004791006
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   'favicon.png',
@@ -63,9 +63,9 @@ var URLS = [
   '/static/js/97.4c51d9c7.chunk.js.map',
   '/static/js/987.f409310d.chunk.js',
   '/static/js/987.f409310d.chunk.js.map',
-  '/static/js/main.3f551c84.js',
-  '/static/js/main.3f551c84.js.LICENSE.txt',
-  '/static/js/main.3f551c84.js.map',
+  '/static/js/main.ae51704e.js',
+  '/static/js/main.ae51704e.js.LICENSE.txt',
+  '/static/js/main.ae51704e.js.map',
   '/static/media/apache.de58a5885561d0c46854b7a8aa4e1ee1.svg',
   '/static/media/apollographql.62b065057c477094ce6c2d0c63c71e25.svg',
   '/static/media/aws.0db2175b638c3193b1fc.webp',
