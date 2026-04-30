@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.74be9637.css",
-    "main.js": "/static/js/main.5b1c35d6.js",
+    "main.js": "/static/js/main.ecadb938.js",
     "static/css/97.6f761f1c.chunk.css": "/static/css/97.6f761f1c.chunk.css",
     "static/js/97.23eb4c21.chunk.js": "/static/js/97.23eb4c21.chunk.js",
     "static/js/488.277fa9bf.chunk.js": "/static/js/488.277fa9bf.chunk.js",
     "static/css/801.634fd504.chunk.css": "/static/css/801.634fd504.chunk.css",
-    "static/js/801.b46adb01.chunk.js": "/static/js/801.b46adb01.chunk.js",
+    "static/js/801.678ca184.chunk.js": "/static/js/801.678ca184.chunk.js",
     "static/css/987.c58b7266.chunk.css": "/static/css/987.c58b7266.chunk.css",
     "static/js/987.f409310d.chunk.js": "/static/js/987.f409310d.chunk.js",
     "static/css/408.31d6cfe0.chunk.css": "/static/css/408.31d6cfe0.chunk.css",
@@ -120,12 +120,12 @@
     "static/media/vercel.svg": "/static/media/vercel.e8b00b740a0728d3dea722f8f3f0ef3a.svg",
     "static/media/headerbg.webp": "/static/media/headerbg.9ff9f2354409587ceea7.webp",
     "main.74be9637.css.map": "/static/css/main.74be9637.css.map",
-    "main.5b1c35d6.js.map": "/static/js/main.5b1c35d6.js.map",
+    "main.ecadb938.js.map": "/static/js/main.ecadb938.js.map",
     "97.6f761f1c.chunk.css.map": "/static/css/97.6f761f1c.chunk.css.map",
     "97.23eb4c21.chunk.js.map": "/static/js/97.23eb4c21.chunk.js.map",
     "488.277fa9bf.chunk.js.map": "/static/js/488.277fa9bf.chunk.js.map",
     "801.634fd504.chunk.css.map": "/static/css/801.634fd504.chunk.css.map",
-    "801.b46adb01.chunk.js.map": "/static/js/801.b46adb01.chunk.js.map",
+    "801.678ca184.chunk.js.map": "/static/js/801.678ca184.chunk.js.map",
     "987.c58b7266.chunk.css.map": "/static/css/987.c58b7266.chunk.css.map",
     "987.f409310d.chunk.js.map": "/static/js/987.f409310d.chunk.js.map",
     "408.d1296693.chunk.js.map": "/static/js/408.d1296693.chunk.js.map",
@@ -146,6 +146,6 @@
   },
   "entrypoints": [
     "static/css/main.74be9637.css",
-    "static/js/main.5b1c35d6.js"
+    "static/js/main.ecadb938.js"
   ]
 }
